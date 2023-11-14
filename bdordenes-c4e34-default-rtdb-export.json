@@ -1,0 +1,56 @@
+{
+  "Tablas": {
+    "Cliente": {
+      "Campos": {
+        "Correo": "juangar16@gmail.com",
+        "Direccion": "San Pablo",
+        "IdCliente": 1,
+        "Nombre": "Juan García",
+        "Telefono": 16267782
+      }
+    },
+    "DetallesOrden": {
+      "Campos": {
+        "Cantidad": 2,
+        "IdDetalle": 1,
+        "IdOrden": 1,
+        "IdProducto": 1,
+        "PrecioUnitario": "Q40.00"
+      }
+    },
+    "Factura": {
+      "Campos": {
+        "Fecha": "2023/11/14",
+        "IdFactura": 1,
+        "IdOrden": 1,
+        "Total": "Q79.99"
+      }
+    },
+    "Ordenes": {
+      "Campos": {
+        "Fecha": "2023/11/14",
+        "IdCliente": 1,
+        "IdOrden": 1,
+        "Total": "Q79.99"
+      }
+    },
+    "Productos": {
+      "Campos": {
+        "Descripción": "Tazas Navideñas",
+        "IdProducto": 1,
+        "Nombre": "Tazas",
+        "Precio": "Q40.00",
+        "Stock": 25
+      }
+    },
+    "Proveedores": {
+      "Campos": {
+        "Correo": "robertogomeez@gmail.com",
+        "Dirección": "Cobán, A.V.",
+        "IdProveedor": 1,
+        "Nombre": "Roberto Gómez",
+        "Teléfono": 99597213
+      }
+    }
+  }
+}
